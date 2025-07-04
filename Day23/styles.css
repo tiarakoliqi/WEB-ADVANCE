@@ -1,0 +1,116 @@
+/* Font & background */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fff0f5; /* lavande e lehtë */
+  color: #4a004a; /* vjollcë e errët */
+}
+
+/* Header & Navigation */
+header {
+  background: linear-gradient(to right, #ff69b4, #8a2be2); /* pink to purple gradient */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffe4f2; /* rozë e lehtë */
+}
+
+/* Seksionet */
+.intro, .products, .price-table {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Produktet */
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.item img {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(138, 43, 226, 0.2); /* violet shadow */
+  transition: transform 0.3s ease;
+}
+
+.item img:hover {
+  transform: scale(1.05);
+}
+
+.item p a {
+  color: #ff1493; /* dark pink */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.item p a:hover {
+  text-decoration: underline;
+}
+
+/* Tabela e çmimeve */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: #ffe4f8;
+  color: #4a004a;
+}
+
+table, th, td {
+  border: 1px solid #d87093; /* rozë e errët */
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #8a2be2;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  table {
+    width: 90%;
+  }
+}
+.price {
+  color: #d63384; /* pink e theksuar */
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: -0.5rem;
+}

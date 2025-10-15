@@ -1,0 +1,47 @@
+ul#select li {
+    background-color: aliceblue;
+    margin-bottom: 15px;
+    padding:15px;
+    list-style-type: armenian;
+    color:black;
+}
+ul#sort{
+    padding: 0%;
+}
+
+ul#sort1 li{
+    background-color: aliceblue;
+    margin-bottom: 15px;
+    padding: 15px;
+    color:blue;
+    list-style-type: armenian;
+}
+
+ul#sort2 li{
+    background-color: aliceblue;
+    margin-bottom: 15px;
+    padding: 15px;
+    color:blue;
+    list-style-type: armenian;
+}
+ul#sort3 li{
+    background-color: aliceblue;
+    margin-bottom: 15px;
+    padding: 15px;
+    color:blue;
+    list-style-type: armenian;
+}
+ul#sort4 li{
+    background-color: aliceblue;
+    margin-bottom: 15px;
+    padding: 15px;
+    color:blue;
+    list-style-type: armenian;
+}
+ul#sort5 li{
+    background-color: aliceblue;
+    margin-bottom: 15px;
+    padding: 15px;
+    color:blue;
+    list-style-type: armenian;
+}
